@@ -53,10 +53,6 @@ body {
           flex: 1;
 }
 
-.menu {
-  /* flex: 3; */
-}
-
 .header-brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,9 +119,6 @@ body {
           justify-content: space-between;
 }
 
-/* .menu ul li {
-  margin-right: 58.6px;
-} */
 .header-h-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,16 +183,14 @@ body {
 
 .title {
   margin-top: 55px;
-  margin-bottom: 55px;
 }
 
 .Heading {
-  margin-top: 50px;
   font-size: 60px !important;
 }
 
 .subHeading {
-  margin-bottom: 52px;
+  margin-bottom: 45px;
   font-size: 48px !important;
 }
 
@@ -224,10 +215,9 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height, or 117% */
   text-transform: uppercase;
   color: #ffffff;
-  padding: 21px 84px;
+  padding: 20px 84px;
 }
 
 .about {
@@ -303,20 +293,12 @@ body {
   text-transform: capitalize;
 }
 
-/* .scrollbar {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-} */
 .scroll-area {
   max-height: 348px;
   overflow: auto;
   margin-top: 340px;
 }
 
-/* ::-webkit-scrollbar {
-  width: 10px;
-} */
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -335,10 +317,6 @@ body {
   border-radius: 10px;
 }
 
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
-} */
 .scroll-padding {
   padding-bottom: 1113.6px;
 }
