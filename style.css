@@ -315,12 +315,6 @@ body {
   text-transform: capitalize;
 }
 
-.scroll-area {
-  max-height: 348px;
-  overflow: auto;
-  margin-top: 340px;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -337,9 +331,5 @@ body {
 ::-webkit-scrollbar-thumb {
   background: white;
   border-radius: 10px;
-}
-
-.scroll-padding {
-  padding-bottom: 1113.6px;
 }
 /*# sourceMappingURL=style.css.map */
