@@ -24,7 +24,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  border-radius: 30px;
 }
 
 .blue-layer {
@@ -131,8 +130,8 @@ body {
 .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: [first] 70px [line2] 264px [line3] 626px [col-4-start] auto [five] 181px [six] 72px [end];
-      grid-template-columns: [first] 70px [line2] 264px [line3] 626px [col-4-start] auto [five] 181px [six] 72px [end];
+  -ms-grid-columns: [first] 70px [line2] 264px [line3] 626px [col-4-start] auto [five] 72px [end];
+      grid-template-columns: [first] 70px [line2] 264px [line3] 626px [col-4-start] auto [five] 72px [end];
 }
 
 .social-icons {
@@ -253,6 +252,8 @@ body {
       -ms-flex-pack: end;
           justify-content: end;
   margin-top: 302px;
+  max-height: 348px;
+  overflow: auto;
 }
 
 .video-wrapper {
@@ -260,6 +261,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
+  margin-right: 181px;
 }
 
 .video-icon {
@@ -275,6 +277,7 @@ body {
 .video-content {
   margin-left: 28px;
   max-width: 317px;
+  padding-bottom: 1113px;
 }
 
 .video-heading {
