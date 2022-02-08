@@ -76,6 +76,7 @@ body {
   line-height: 34px;
   text-transform: capitalize;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .menu {
@@ -93,6 +94,10 @@ body {
   height: 86px;
   width: 1338px;
   padding: 29px 82.6px 29px 113px;
+}
+
+.menu li {
+  cursor: pointer;
 }
 
 .menu span {
@@ -127,6 +132,10 @@ body {
           justify-content: end;
 }
 
+.header-h-menu div {
+  cursor: pointer;
+}
+
 .wrapper {
   display: -ms-grid;
   display: grid;
@@ -145,6 +154,10 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+}
+
+.social-icons svg {
+  cursor: pointer;
 }
 
 .facebook {
@@ -174,6 +187,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  cursor: text;
 }
 
 .search-logo {
@@ -217,6 +231,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding: 20px 84px;
+  cursor: pointer;
 }
 
 .about {
@@ -241,6 +256,10 @@ body {
   margin-top: 16px;
   margin-bottom: 147px;
   max-width: 508px;
+}
+
+.about strong {
+  cursor: pointer;
 }
 
 .videos {
